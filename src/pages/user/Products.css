@@ -1,0 +1,43 @@
+.product-card {
+  transition: transform 0.3s ease;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.stock-status.in {
+  color: green;
+  font-weight: 500;
+}
+
+.stock-status.out {
+  color: red;
+  font-weight: 500;
+}
+
+.save-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  z-index: 10;
+}

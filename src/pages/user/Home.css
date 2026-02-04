@@ -1,0 +1,102 @@
+.hero-section {
+  position: relative;
+  height: 570px; /* fixed height for hero */
+  overflow: hidden;
+  color: white;
+}
+
+.hero-slide {
+  height: 570px; /* match hero-section */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Overlay layer on hero */
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+}
+
+/* Hero content like button */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* Shop Now button */
+.btn-shop {
+  background-color: #ff7f00;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(255, 127, 0, 0.5);
+  transition: background-color 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-shop:hover {
+  background-color: #e66300;
+}
+
+/* Bike cards styling */
+.bike-card {
+  background: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bike-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.bike-image {
+  border-radius: 8px;
+}
+
+.brand-name {
+  color: #1b2c7a;
+}
+
+.arrow {
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section,
+  .hero-slide {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section,
+  .hero-slide {
+    height: 300px;
+  }
+
+  .btn-shop {
+    font-size: 14px;
+  }
+
+  .bike-card {
+    margin: 10px;
+  }
+
+  .bike-image {
+    width: 100%;
+    height: auto;
+  }
+}
