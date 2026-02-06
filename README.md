@@ -1,73 +1,188 @@
-"C:\xampp\php\php.exe" -S localhost:9000 -t C:\xampp\htdocs\app-eauto\backend
+# 🚀 eAuto – Bike Spare Parts E-Commerce Platform
 
+## 📌 Project Overview
 
-# Getting Started with Create React App
+eAuto is a full-featured web-based e-commerce platform designed specifically for buying and managing bike spare parts online. The system provides a smooth and intuitive shopping experience for customers while enabling administrators to efficiently manage products, inventory, users, and orders.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The platform acts as a centralized digital marketplace connecting customers with spare part suppliers. It focuses on usability, performance, and data security while maintaining scalability for future enhancements.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Objectives
 
-### `npm start`
+* Provide a simple and user-friendly platform for purchasing bike spare parts
+* Implement secure login, cart management, and checkout workflows
+* Enable efficient product and order management for administrators
+* Maintain reliable transaction and user data handling
+* Deliver a responsive interface compatible with desktop and mobile devices
+* Improve digital accessibility for bike spare part purchasing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+### 👤 User Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Secure user registration and login system
+* Browse products by category and brand
+* Advanced product search and filtering
+* Add to cart and quantity management
+* Smooth checkout process
+* Mock payment processing
+* Order history and tracking
+* User profile and address management
 
-### `npm run build`
+### 🛠 Admin Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Dashboard with sales overview
+* Add/Edit/Delete product catalog
+* Inventory monitoring
+* Order management and status updates
+* User management
+* Sales reporting and analytics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧰 Technology Stack
 
-### `npm run eject`
+### Frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* React JS for component-based UI
+* HTML5 / CSS3 styling
+* JavaScript (ES6) logic
+* Bootstrap 5 responsive design
+* AOS animation effects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Core PHP REST APIs
+* PHP session handling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Database
 
-## Learn More
+* MongoDB for flexible document storage
+* MySQL for relational operations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Tools & Environment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* XAMPP development server
+* Git version control
+* GitHub repository hosting
+* phpMyAdmin & MongoDB Compass database tools
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🗄 Database Modules
 
-### Analyzing the Bundle Size
+* Users
+* Admins
+* Products
+* Shopping Cart
+* Orders
+* Order Items
+* Payments
+* Delivery Records
+* Reports
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Modules are structured to support both relational and document-based storage.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔐 Security Features
 
-### Advanced Configuration
+* Password hashing
+* Session authentication
+* Role-based authorization
+* Input validation
+* SQL injection protection
+* XSS prevention
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## ⚙ System Workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. User authentication
+2. Product browsing via React UI
+3. Cart operations
+4. Checkout & simulated payment
+5. Order database update
+6. Delivery tracking
+7. Admin monitoring & reporting
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧪 Testing Strategy
+
+* Component testing (frontend)
+* API integration testing
+* Admin workflow validation
+* Performance benchmarking
+
+---
+
+## ⚠ Limitations
+
+* Simulated payment gateway
+* No real logistics API integration
+* Basic reporting tools
+* Web-only interface
+
+---
+
+## 🔮 Future Enhancements
+
+* Native mobile app
+* AI recommendation engine
+* Advanced dashboard analytics
+* Delivery service integration
+* Cloud infrastructure deployment
+* Expanded payment systems
+
+---
+
+## 📂 Project Structure
+
+eAuto/
+├── admin/
+├── user/
+├── assets/css/
+├── assets/js/
+├── assets/images/
+├── database/
+├── includes/
+├── index.php
+└── README.md
+
+---
+
+## 🚀 Installation Guide
+
+1. Install XAMPP
+2. Clone repository
+3. Move project to `htdocs`
+4. Import database
+5. Start services
+6. Open `localhost/eauto`
+
+---
+
+## 👨‍💻 Contributors
+
+Dharmik Dobariya (4928)
+Guide: Prof. Yesha Patel
+
+---
+
+## 📚 References
+
+* React Documentation
+* Bootstrap Documentation
+* PHP Manual
+* MongoDB Docs
+* MDN Web Docs
+
+---
+
+## 📜 License
+
+Developed for academic purposes — BCA Semester 5 Project.
