@@ -60,7 +60,6 @@ The platform acts as a centralized digital marketplace connecting customers with
 
 ### Database
 
-* MongoDB for flexible document storage
 * MySQL for relational operations
 
 ### Tools & Environment
