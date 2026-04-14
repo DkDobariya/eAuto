@@ -59,7 +59,7 @@ The platform acts as a centralized digital marketplace connecting customers with
 * PHP session handling
 
 ### Database
-
+* MongoDB (NoSQL Database)
 * MySQL for relational operations
 
 ### Tools & Environment
